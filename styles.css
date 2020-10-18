@@ -1,0 +1,196 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+
+
+}
+.header {
+  
+  background-image: url("backgroundheader.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 20px 10px;
+  display:flex;
+  height: 200px;
+ 
+}
+
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  
+}
+
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 3px;
+  height: 200px;
+  width: 200px;
+  margin-left: 15px;
+  display: inline;
+ 
+
+}
+.logoPhoto{
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+	border:1px solid white;
+	box-shadow: 5px;
+}
+
+.header-right {
+  
+  vertical-align: bottom;
+  margin: auto;
+  margin-right: 0px;
+  
+
+}
+
+.search{
+	
+   border-radius: 5px;
+   border:1px solid white;
+   background-color:#808080;
+   color: white;
+   height: 40px;
+  width: 50%;
+  -webkit-transition: width 1s ease-in-out;
+  transition: width 1s ease-in-out;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+
+
+
+}
+::placeholder{
+	color:white;
+}
+input[type=text]:focus {
+  width: 80%;
+
+
+}
+.header-middle{
+	width: 50%;
+	
+	display: inline;
+	margin:auto;
+	vertical-align: bottom;
+
+	
+}
+.searchButton{
+border:1px solid white;
+display: inline;
+width: 42px;
+height: 42px;
+border-radius: 5px;
+background-image: url("search-icon.png");
+background-size: cover; 
+background-position: center center;
+padding: 15px;
+}
+.searchButton:hover{
+	opacity: 80%;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+  
+}
+.MenuButton{
+
+	border:1px solid white;
+	border-radius: 5px;
+	box-shadow: 5px;
+	margin-right: 20px;
+	width: 100px;
+	height: 75px;
+	background-image: url("person.jpg");
+	background-size: cover; 
+	background-position: center center;
+	
+	
+}
+.menu-items{
+	display:none;
+	margin-right: 20px;
+	position: absolute;
+	border:1px solid white;	
+	background-color: #DCDCDC;
+}
+.menu-items a{
+	color: black;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	border:1px solid gray;
+}
+.dropdown:hover .menu-items {
+	
+	position: absolute;
+	display:block;
+	
+}
+.mainBody{
+	
+}
+.mainBodyBackground{
+	width: 100%;
+	
+	background-image: url("main-background.jpg");
+	  background-repeat:no-repeat ;
+	  border-top: 1px solid white;
+}
+.navigation a{
+	background:#808080;
+	flex-direction: row;
+	font-size: 20px;
+  	font-weight: bold;
+  	color: white;
+  	font-family: "Courier New", Courier, monospace;
+  	margin-right: 10px;
+  	border:1px solid white;
+
+}
+.navigation a:hover{
+	background:#778899;
+}
+.navigation{
+ 	margin: auto;
+	margin-top: 50px;
+	vertical-align: bottom;
+}
+
+@media screen and (max-width: 700px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+  .navigation a{
+  	display:inline-block;
+  	width: 40px;
+  	height: 20px;
+  	margin: 0px 0px 0px 5px;
+  	padding: 10px;
+  	font-size: 10px;
+  	font-weight: none;
+  }
+ 
+}
