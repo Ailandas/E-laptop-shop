@@ -148,14 +148,15 @@ padding: 15px;
 	
 }
 .mainBody{
-	
+	width: 100%;
+  background-repeat: no-repeat;
+  border-top: 1px solid white;
+  background:url("graphics/main-background.jpg");
+
 }
 
 .mainBodyBackground{
-	width: 100%;
-	background-repeat:no-repeat ;
-  border-top: 1px solid white;
-  content:url("graphics/main-background.jpg");
+	
 
 }
 .navigation a{
@@ -173,7 +174,7 @@ padding: 15px;
 	background:#778899;
 }
 .navigation{
- 	/*margin: auto;*/
+ 
 	margin-top: 50px;
 	vertical-align: bottom;
 }
@@ -197,6 +198,7 @@ padding: 15px;
   	font-weight: none;
   }
 }
+
 @media screen and (max-width: 1040px) {
 .header{
     height: 300px;
@@ -209,3 +211,6 @@ padding: 15px;
     background-size: 100%;
   }
 }
+
+}
+
