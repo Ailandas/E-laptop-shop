@@ -1,23 +1,16 @@
 .wrapper{
    padding: 0px 0px 200px 0px;
   width: 100%;
-  
- 
- 
-
-
 }
 .carousel{
   
-  max-width: 1200px;
+  max-width: 1250px;
   margin: auto;
   padding: 0 30px;
- 
+  
 
 }
-
-.owlImages{
-    
+.owlImages{  
   text-align: center;
   margin: 20px 0;
   line-height: 250px;
@@ -27,13 +20,42 @@
   box-shadow: 0px 4px 15px rgba(0,0,0,0.2);  
     width: 100%;
     height: 100%;
-
 }
 .owlImages img{
   display: flex;
  height: 300px;
   width: 100%;
+}
+.outter-carousel{
+  margin:auto;
+  max-width: 1300px;
+  display:flex;
+  align-items: center; 
+  padding-left: 50px;
+  position:relative;
 
 }
+.outter-carousel a{
+ width: auto;
+}
+#navigation-left{
+  position:absolute;
+  left:42px;
+  z-index: 9999;
+  font-size: 50px;
+ font-family: Impact, Charcoal, sans-serif;
+ height: auto;
+ color: white;
+ transform: scale(1, 2.5);
 
-.
+}
+#navigation-right{
+  position:absolute;
+right: -10px;
+  z-index: 9999;
+  font-size: 50px;
+ font-family: Impact, Charcoal, sans-serif;
+ height: auto;
+ color: white;
+ transform: scale(1, 2.5);
+}

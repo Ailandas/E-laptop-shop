@@ -22,6 +22,9 @@
         }
 
       });
-
-
+     
+     $('#navigation-left').click(function() {
+    owl.trigger('prev.owl.carousel');})
+     $('#navigation-right').click(function() {
+    owl.trigger('next.owl.carousel');})
    
